@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#Crontab mit folgendem ergänzen:
+#*/1 * * * * /PathToScript/reboot.sh
+
 #Variablen
 MessageSent="/tmp/msg.token.tmp"
 
